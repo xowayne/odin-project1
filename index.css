@@ -1,0 +1,59 @@
+div {
+    font-family:'inter', sans-serif;
+}
+
+.topcolor{
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.headerlogo{
+    font-size:24px ;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-left: 250px;
+    height: fit-content;
+
+}
+
+.headerlink{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 250px;
+    height: fit-content;
+}
+
+.bgap{
+    display: flex;
+    background-color: #1f2937;
+    height:150px
+}
+
+.descript{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7EB;
+    margin-left: 250px;
+}
+
+
+#watch{
+    height: 400px;
+    width: 700px;
+    margin-right: 250px;
+}
+#descript2{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#signup{
+    background-color: #3882F6 ;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: solid;
+}
