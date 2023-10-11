@@ -28,7 +28,7 @@ div {
 .bgap{
     display: flex;
     background-color: #1f2937;
-    height:150px
+    height: 130px;
 }
 
 .descript{
@@ -40,9 +40,10 @@ div {
 
 
 #watch{
-    height: 400px;
-    width: 700px;
+    height: 350px;
+    width: 600px;
     margin-right: 250px;
+    border-radius: 5px;
 }
 #descript2{
     color: #E5E7EB;
@@ -53,7 +54,30 @@ div {
 #signup{
     background-color: #3882F6 ;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 25px;
     border-radius: 5px;
     border-style: solid;
+}
+
+#midheader{
+    font-size:  36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.bluebox{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.bluebox2{
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.watchdesc{
+    font-size: 18px;
+    font-weight: bold;
 }
