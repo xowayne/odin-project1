@@ -40,8 +40,8 @@ div {
 
 
 #watch{
-    height: 350px;
-    width: 600px;
+    height: 400px;
+    width: 700px;
     margin-right: 250px;
     border-radius: 5px;
 }
@@ -80,4 +80,30 @@ div {
 .watchdesc{
     font-size: 18px;
     font-weight: bold;
+}
+
+.greygap{
+    display: flex;
+    background-color: #e5e7eb;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.greyquote{
+    display:flex;
+    background-color: #e5e7eb;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.thor{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 600px;
 }
